@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="heading">
+            <h1> 
+                <i class="fa-solid fa-calculator"></i>
+                My <span>Calculator</span></h1>
+            <p>Simple • Fast • Easy to Use</p>
+        </div>
+        <div class="input-box">
+
+            <input type="number" id="num1-el" placeholder="Enter first number">
+            <input type="number" id="num2-el" placeholder="Enter second number">
+        </div>
+        <div class="buttons">
+
+            <button class="add" onclick="add()">+ <span>Add</span></button>
+            <button class="sub" onclick="sub()">- <span>Subtract</span></button>
+            <button class="div" onclick="div()"> ÷ <span>Divide</span></button>
+            <button class="mul" onclick="mul()"> × <span>Multiply</span></button>
+        </div>
+        <div class="result">
+            <h2>Result</h2>
+            <span id="sum-el">0</span>
+        </div>
+        <footer>
+            Built with ❤️ by Md Mehtab Alam
+        </footer>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
